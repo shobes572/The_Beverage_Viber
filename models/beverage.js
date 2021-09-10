@@ -23,6 +23,10 @@ Beverage.init(
         image: {
             type: DataTypes.STRING,
             allowNull: false
+        },
+        caffiene: {
+            type: DataTypes.STRING,
+            allowNull: true
         }
     },
     {
