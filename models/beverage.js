@@ -16,15 +16,11 @@ Beverage.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        ingredients: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
         description: {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        instructions: {
+        image: {
             type: DataTypes.STRING,
             allowNull: false
         }
