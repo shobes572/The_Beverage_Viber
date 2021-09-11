@@ -24,7 +24,7 @@
 
 
 ## Description
-> This project was built by Coffee and Tea aficionados.  The goal was to help with the ever internal debate of whether to have a steamy hot cup of tea, or that jittery goodness of Java Joe.  The beverage viber helps you decide if you'd like to have a Coffee or Tea, and will generate a recipe that coordiates with your choice. If you have no clue, well then let our random generizer decide for you!    This was built using the node tools ```mysql2``` ``` express```  ```dotenv``` and ```sequelize```.
+> This project was built by Coffee and Tea aficionados.  The goal was to help with the ever internal debate of whether to have a steamy hot cup of tea, or that jittery goodness of Java Joe.  The beverage viber helps you decide if you'd like to have a Coffee or Tea, and will generate a recipe that coordiates with your choice. If you have no clue, well then let our random generator decide for you!    This was built using the node tools ```mysql2``` ``` express```  ```dotenv``` and ```sequelize```.
 [Video]()
 
 ## Installation
