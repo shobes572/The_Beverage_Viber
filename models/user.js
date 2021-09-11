@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
 class User extends Model { }
-
+//Creates the User Database
 User.init(
     {
         id: {

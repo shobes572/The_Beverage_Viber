@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const { User, Beverage, Review } = require('../../models')
-
+//grab attributes the user choses, such as favorite beverages
 router.get('/:id', (req, res) => {
     User.findOne({
         attributes: { exclude: ['password'] },
@@ -37,7 +37,7 @@ router.get('/:id', (req, res) => {
             res.status(500).json(err);
         });
 });
-
+//Sign Up Route
 router.post('/', (req, res) => {
     User.create({
         username: req.body.username,
@@ -57,7 +57,7 @@ router.post('/', (req, res) => {
             res.status(500).json(err);
         });
 });
-
+//Login Route
 router.post('/login', (req, res) => {
     User.findOne({
         where: {
@@ -87,7 +87,7 @@ router.post('/login', (req, res) => {
             res.status(500).json(err);
         });
 });
-
+//Log Out Route
 router.post('/logout', (req, res) => {
     if (req.session.loggedIn) {
         req.session.destroy(() => {
