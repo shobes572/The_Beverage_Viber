@@ -3,8 +3,12 @@ const bcrypt = require('bcrypt');
 
 const sequelize = require('../config/connection');
 
-class User extends Model { }
-
+class User extends Model {
+    checkPassword(loginPw) {
+        return bcrypt.compareSync(loginPw, this.password);
+    }
+}
+//Creates the User Database
 User.init(
     {
         id: {
@@ -33,7 +37,7 @@ User.init(
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
-                is: "^(?=.*?\d)(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[!@#$%^&*])$",
+                is: "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])",
                 len: [8, 30]
             }
         }
