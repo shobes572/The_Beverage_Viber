@@ -26,6 +26,7 @@ Review.init(
                 max: 200
             }
         },
+        //foreign key from User
         user_id: {
             type: DataTypes.INTEGER,
             references: {
@@ -33,6 +34,7 @@ Review.init(
                 key: 'id'
             }
         },
+        //foreign key from Beverage
         beverage_id: {
             type: DataTypes.INTEGER,
             reference: {

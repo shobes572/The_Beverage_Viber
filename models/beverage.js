@@ -3,7 +3,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Beverage extends Model { }
-
+//Generates Beverage Cards pulled from Seeds DB and can be selected as a User Favorite
 Beverage.init(
     {
         id: {
