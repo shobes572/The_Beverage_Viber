@@ -1,6 +1,7 @@
 const User = require('./user');
 const Review = require('./review');
 const Beverage = require('./beverage');
+const Favorite = require('./favorite');
 
 //Reviews has many users
 User.hasMany(Review, {
@@ -11,7 +12,6 @@ Review.belongsTo(User, {
     foreignKey: 'user_id',
     onDelete: "cascade"
 });
-//Users can have many favortie Beverages
 Beverage.belongsToMany(User, {
     through: {
         model: Favorite,
@@ -20,7 +20,6 @@ Beverage.belongsToMany(User, {
     as: 'user_beverages',
     onDelete: "cascade"
 });
-//Beverages can have many Users favorite
 User.belongsToMany(Beverage, {
     through: {
         model: Favorite,
@@ -29,7 +28,6 @@ User.belongsToMany(Beverage, {
     as: 'beverage_favorites',
     onDelete: "cascade"
 });
-//Beverages can have many Reviews
 Beverage.hasMany(Review, {
     foreignKey: 'beverage_id'
 });
@@ -39,4 +37,4 @@ Review.belongsTo(Beverage, {
     onDelete: "cascade"
 });
 
-module.exports = { User, Review, Beverage };
+module.exports = { User, Review, Beverage, Favorite };

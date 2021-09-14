@@ -6,6 +6,9 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const { User, Beverage, Favorite, Review } = require("./models");
 const exphbs = require('express-handlebars');
 const helpers = require('./utils/helpers');
+const routes = require('./controllers')
+const { User } = require("./models");
+
 
 
 const app = express();
@@ -33,7 +36,8 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.static(path.join(__dirname, "public")));
 
-// app.use(routes);
+
+app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));

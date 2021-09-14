@@ -20,8 +20,9 @@ router.get('/:id', (req, res) => {
             attributes: [
                 'title',
                 'description',
-                'images'
-            ]
+                'image'
+            ],
+            as: 'beverage_favorites'
         }
         ]
     })
@@ -39,10 +40,9 @@ router.get('/:id', (req, res) => {
 });
 //Sign Up Route
 router.post('/', (req, res) => {
-    User.create({
-        username: req.body.username,
-        password: req.body.password
-    })
+    User.create(
+        req.body
+    )
         .then(dbUserData => {
             req.session.save(() => {
                 req.session.user_id = dbUserData.id;
