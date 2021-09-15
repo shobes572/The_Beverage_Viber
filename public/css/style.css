@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#icon-set {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* CSS for making tiny bubbles of our photos */
+.icon {
+  border-radius: 50%;
+  max-height: 50px;
+  max-width: 60px;
+  margin: 2px;
+}
