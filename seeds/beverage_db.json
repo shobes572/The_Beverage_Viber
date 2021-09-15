@@ -1,0 +1,338 @@
+[
+    {
+        "beverage": "french cafe au lait",
+        "category": "coffee",
+        "info": "A bistro-style cafe au lait is oh-so-French and a fantastic way to greet a chilly morning. Make it with equal parts steamed milk and strong hot coffee, for an easy, elegant breakfast with flaky croissants. Or enjoy it as they do at sidewalk cafes in Paris: as an afternoon treat with a square of dark chocolate.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/5vtcfqq-TYBM4oDtuHfC78tnsRw=\/977x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/FrenchCafeauLait-TheSpruce-NitaWest-3191a04832f7440fb107b5395824811d.jpg"
+    },
+    {
+        "beverage": "pour over coffee",
+        "category": "coffee",
+        "info": "Pour-over coffee is a nostalgic brewing method that produces produces a rich, flavorful cup of coffee. While it does require precision of measurements and brewing times, you need nothing but regular coffee grinds and water to achieve the ideal cup.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/y8hVGJTJCh7lX7Le_xZOeqSGHRc=\/990x660\/filters:no_upscale():max_bytes(150000):strip_icc()\/Pour-OverCoffee-TheSpruce-SCDesignStudios-72362e26f4fb4a4b8f50d6efb3e3c551.jpg"
+    },
+    {
+        "beverage": "cuban coffee cafecito",
+        "category": "coffee",
+        "info": "Cuban coffee is a sweet, rich, delicious hot beverage. Traditionally served after-dinner, it makes a great, dairy-free alternative to ice cream after a meal. You make it by topping potent shots of espresso with a thick layer of foamy crema made with sugar, instead of milk.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/MeRHI69UHO5Kxa1qngPlnoSAJPQ=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/CubanCoffeeCafecito-TheSpruce-SCDesignStudios-0796109d00034afeb420c4649f90dd43.jpg"
+    },
+    {
+        "beverage": "the perfect cappuccino",
+        "category": "coffee",
+        "info": "A light, foamy cappuccino just like they drink in Italy is at your fingertips with this traditional recipe. Make it with home-brewed espresso and steamed milk for a delicious morning pick-you-up. You could use an espresso machine or pick up a handy electric milk frother for a fraction of the cost.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/dSi9SWtndbxkfwPxj8dYKtEFJGs=\/973x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/ThePerfectCappuccino-JShepherd-PhotographersChoiceRF-GettyImages-e127596cd87644cca757bbc6744692da.jpg"
+    },
+    {
+        "beverage": "new orleans coffee cafe noir",
+        "category": "coffee",
+        "info": "New Orleans is known for plenty of unique and delicious foods, including its famous hot coffee. You make it with basic drip-ground coffee, plus chicory, a dried herb that gives this brew its signature\u00a0chocolate-caramel flavor, intensely dark color, and thick consistency.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/l6r0u16hxp3SDxrVwb5QxRkZTns=\/970x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/NewOrleansCoffeeCafeNoir-chryscampos.com-GettyImages-631ab2ab05da4799b028c59221c5ee4a.jpg"
+    },
+    {
+        "beverage": "cold brew coffee",
+        "category": "coffee",
+        "info": "You need no special equipment to make delicious cold brew coffee. The simple method of steeping ground coffee beans in cold water yields a rich-tasting brew, without any bitter flavor. It makes a great overnight recipe in the summer when you're expecting guests the next day. Serve in tall glasses over ice.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/A0AjYql2RgJd8V1gNNlLTLaXvW4=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/ColdBrewCoffee-TheSpruce-SCDesignStudios-e31eb0755cda43878823b53a16a24d56.jpg"
+    },
+    {
+        "beverage": "affogato",
+        "category": "coffee",
+        "info": "Fresh-brewed espresso and vanilla ice cream make a fabulous after-dinner coffee dessert. The Italian affogato is an easy recipe that can be made with a stovetop espresso maker or any strong coffee if you don't have a separate machine. Be sure to freeze the glasses as it's the secret to avoiding melted ice cream.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/3Z6FITccUeZ_dVczR9zd5Qs2YJ0=\/4000x2667\/filters:no_upscale():max_bytes(150000):strip_icc()\/Affogato-007-6e41d6fd68a943a6b3518b9eb9d4a5e6.jpg"
+    },
+    {
+        "beverage": "maple pecan latte",
+        "category": "coffee",
+        "info": "A coffee shop favorite during fall and winter, it's easy to make a maple pecan latte at home. You'll start by making the sweetener, and the maple pecan syrup is enough for many lattes. When it's time for a drink, simply mix it with fresh-brewed espresso and steamed milk.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/tS7bTP4jMXAuiWv8W1QJfoyeBKc=\/3694x3065\/filters:no_upscale():max_bytes(150000):strip_icc()\/Maple-Pecan-Latte-FINAL-10-5061ef81d9cd440aa40c8004ffe2270f.jpg"
+    },
+    {
+        "beverage": "white chocolate mocha",
+        "category": "coffee",
+        "info": "Does the thought of a sweet, creamy white chocolate latte make you weak in the knees? We can't make the cravings stop\u2014but we can share this dreamy recipe, so you can skip the drive to the coffee shop this winter.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/FcB65qXUeGh2SCvoFZxrLmlgZHU=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/WhiteChocolateMocha-TheSpruce-AnitaSchecter-eb5d30267a7440298dfb43e996821b66.jpg"
+    },
+    {
+        "beverage": "homemade frappuccino",
+        "category": "coffee",
+        "info": "Save money at the coffee shop with this foolproof recipe that makes enough creamy, chilled frappuccinos to serve a houseful of holiday guests. Breakfasting solo? Make the recipe ahead and freeze individual portions for an indulgent morning beverage anytime.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/GyjpAgA2CdvurD5l-k2gaZEHGBk=\/960x862\/filters:no_upscale():max_bytes(150000):strip_icc()\/HomemadeFrappuccino-LeahMaroney-6808984dd7e641c1abc36fbf0feeea5a.jpg"
+    },
+    {
+        "beverage": "hong kong yuanyang coffee with tea",
+        "category": "coffee",
+        "info": "Yuanyang is a popular, tasty, energizing beverage from Hong Kong that you will want to add to your bag of tricks. It's creamy and sweet, thanks to sweetened condensed milk, and has a stimulating caffeine kick\u2014perfect for when you can't decide between hot coffee and tea.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/jNqGOCdaDJrvLZvlHuinkRryYTo=\/960x720\/filters:no_upscale():max_bytes(150000):strip_icc()\/HongKongYuanyangCoffeeWithTea-JoseA.BernatBacete-GettyImages-4b45dc94962f409b944bcc2798eeea30.jpg"
+    },
+    {
+        "beverage": "cafe latte",
+        "category": "coffee",
+        "info": "Enjoy an Italian-style cafe latte at home, while you linger in your bathrobe. Typically made with more milk than a cappuccino, this popular coffee drink requires only two simple ingredients, though it's also considered proper to add some flavored simple syrup for sweetness.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/Z7huR63o64ZyIA9V6lRleR-f6eM=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/CafeLatte-TheSpruce-a94ad25744d547608e34d94b5f35f55d.jpg"
+    },
+    {
+        "beverage": "turkish coffee",
+        "category": "coffee",
+        "info": "Turkish coffee has a well-deserved reputation for its wonderfully strong flavor. This classic recipe includes ground cardamom, but what makes all the difference is the fine grind of the coffee beans.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/GN8JaokU1T3XWX9NlUzEde321vU=\/977x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/TurkishCoffee-TheSpruce-185082b48e40495c8f25188627a66811.jpg"
+    },
+    {
+        "beverage": "pumpkin spice latte",
+        "category": "coffee",
+        "info": "It wouldn't be autumn in America without pumpkin spice lattes, as made famous by a certain coffee shop chain. You could stand in line and fork out a fortune, or brew your own beverage at home with this clever copycat recipe that includes cozy fall spices and real pumpkin puree.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/ngarXMIHGcBe8qs5RReD4GAo5g8=\/960x960\/filters:no_upscale():max_bytes(150000):strip_icc()\/PumpkinSpiceLatte-AnitaSchecter-d82dca31cb4b432bb503de233452336f.jpg"
+    },
+    {
+        "beverage": "keto pumpkin spice latte",
+        "category": "coffee",
+        "info": "If you're avoiding carbs but still want that fall-spiced jolt of java, try this keto pumpkin spice latte recipe. It\u2019s made with espresso, pumpkin, and spices along with your favorite milk, and a little artificial sweetener.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/CVXMWG-sDN7T2ZZzs-PNQvnHwkE=\/1852x1500\/filters:no_upscale():max_bytes(150000):strip_icc()\/keto-pumpkin-spice-latte-4771104-05-8f54b4d407cb40279ae027b8d1add285.jpg"
+    },
+    {
+        "beverage": "flat white espresso",
+        "category": "coffee",
+        "info": "A flat white is similar to a latte in that it's made with espresso and frothed milk. But to make this trendy Australian beverage, you fold the milk foam into the coffee for a smooth, integrated experience, versus layering it on top. It takes a bit of practice, but mastering it will definitely impress your friend squad at brunch.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/zwzY-eBjFITZ80hTHJB34BZElTY=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/FlatWhiteEspresso-mp_develops-Twenty20-b2fd20dcc07b4126b5e5139912ca41a7.jpg"
+    },
+    {
+        "beverage": "vietnamese iced coffee c ph sa d",
+        "category": "coffee",
+        "info": "An uplighting combination of coffee and sweetened condensed milk, Vietnamese iced coffee is more than your average cup of joe. It's refreshing and perfectly sweet with a jolt of caffeine, making it a great way to start the day.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/fuU7ruMeqw09dVjRQhL2pRzp3pA=\/3008x2000\/filters:no_upscale():max_bytes(150000):strip_icc()\/vietcoffee-122e434a31864154bfdebbb7f38d0749.jpg"
+    },
+    {
+        "beverage": "vegan gingerbread latte",
+        "category": "coffee",
+        "info": "Warm up this winter with a sweet, lightly-spiced gingerbread latte that's like Christmas in a mug. You only need 15 minutes to reproduce the popular coffee shop treat at home. Top it with non-dairy whipped cream, for enjoying in front of the tree.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/zBPs981AllcUxGjnIiPVk_i3SGc=\/974x884\/filters:no_upscale():max_bytes(150000):strip_icc()\/VeganGingerbreadLatte-AllysonKramer-d0274329365444b4bed14ad6388bc8ae.jpg"
+    },
+    {
+        "beverage": "vietnamese egg coffee",
+        "category": "coffee",
+        "info": "Vietnamese egg coffee is a uniquely sweet, custard-like hot coffee drink that has to be tasted to be believed. You only need three ingredients and no special equipment to make this velvety drink.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/9mH36yNXdwn6fiCuRpmHqUXycAc=\/3008x2000\/filters:no_upscale():max_bytes(150000):strip_icc()\/Vieteggcoffeehoriz-e369899cd369472db59725e860fb1a6f.jpg"
+    },
+    {
+        "beverage": "greek iced coffee frappe",
+        "category": "coffee",
+        "info": "Iced frappes are popular, cooling drinks on hot days. This recipe hails from Greece, but variations of the refreshing brew are enjoyed all over the world. You don't even need to plug in a coffee maker, or use any tools, though a blender might be handy if you multiply the recipe to serve a crowd.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/QDdve4J1X5_c_9iTh4psXFMdoTk=\/2121x1414\/filters:no_upscale():max_bytes(150000):strip_icc()\/GreekIcedCoffeeFrappe-SirintraPumsopa-GettyImages-c681bc6b9b6e4e81876225750c1825a1.jpg"
+    },
+    {
+        "beverage": "caramel irish coffee",
+        "category": "coffee",
+        "info": "Decadent, boozy, creamy, and spiked with caffeine, caramel Irish coffee is a delicious warm cocktail that puts a fun spin on the traditional Irish coffee. It makes a great after-dinner drink during the holidays, or whenever friends gather in colder weather.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/Nhls5ufdC75n9SJMmcAjM2Wm_ZU=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/CaramelIrishCoffee-SCDesignStudios-e6baff0a7a4f4db2a22a6487ca7a36db.jpg"
+    },
+    {
+        "beverage": "cafe con leche",
+        "category": "coffee",
+        "info": "Enjoy a coffee house experience at home with easy, Spanish-style cafe con leche. Translated as \"coffee with milk,\" it is made with equal parts espresso and steamed milk, for a powerful morning beverage that will put pep in your step.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/T9jWoSqd27gExWvUJiddMbcGeo4=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/CafeConLeche-TheSpruce-SCDesignStudios-983747ec4cdf4645b9416401bdcdbd55.jpg"
+    },
+    {
+        "beverage": "mexican coffee",
+        "category": "coffee",
+        "info": "If you are a fan of mochas, you're sure to enjoy Mexican coffee. The sweet and spicy treat is an unbelievably delicious blend of strong, freshly roasted coffee, chocolate, cinnamon, and vanilla, and is only improved by a dollop of fluffy whipped cream on top.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/dfQVfPyR7NI41vxhBUwCH3SdFN4=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/MexicanCoffee-TheSpruce-LeahMaroney-28c62ddd52a144d194c1e96c21d89662.jpg"
+    },
+    {
+        "beverage": "sage herbal tea",
+        "category": "tea",
+        "info": "Just breathing in the aroma of this simple sage tea may help you feel more relaxed, but wait until you sip it. Steeping sage leaves in boiling water will give you a basic sage brew, but adding a bit of sugar and lemon levels up the flavor.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/X18v4aCegxhihJLnSbm411s4wj8=\/5979x3986\/filters:no_upscale():max_bytes(150000):strip_icc()\/sage-tea-recipe-766393-hero-5c1d22d546e0fb000105988c.jpg"
+    },
+    {
+        "beverage": "fresh mint tea",
+        "category": "tea",
+        "info": "If you grow mint in your garden, chances are you have a lot of it. Make the most of the invasive herb by brewing up your own mint herbal tea. Naturally caffeine-free, this easy herbal tea makes a lovely alternative to plain water, with a lovely menthol taste.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/iMhoTqcZStGaFMLUWHsWSEubKas=\/2048x1362\/filters:no_upscale():max_bytes(150000):strip_icc()\/easy-fresh-mint-tea-recipe-766391-6_preview-5b291f95ba61770036733329.jpeg"
+    },
+    {
+        "beverage": "lemongrass ginger iced tea",
+        "category": "tea",
+        "info": "This iced tea recipe starts with black tea bags, but ups the ante with fresh ginger and lemongrass. If you have basic tea bags that you don't love on their own, try doctoring them up this way for a more exciting beverage. Serve with a squeeze of fresh lemon.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/tiwN_3TvgTnnkxZvLMHjsHZR2ns=\/720x480\/filters:no_upscale():max_bytes(150000):strip_icc()\/__opt__aboutcom__coeus__resources__content_migration__liquor__2016__08__11084451__16-Bartenders-Pick-the-Most-Underrated-Cocktails-long-island-iced-tea-720x480-inline-c4cc8eb17ff3418b86ee7b3e5cce91fa.jpg"
+    },
+    {
+        "beverage": "hong kong iced tea",
+        "category": "tea",
+        "info": "Use either sweetened condensed milk or evaporated milk for this decadent, full-bodied milk tea that originates in Hong Kong. The strength of the tea will depend on how long you brew your black tea leaves, so let it go longer for a more assertive flavor or for less time if you prefer a milder brew.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/BxBSIKcVGC3B_89vBqb3bhafI48=\/2048x1367\/filters:no_upscale():max_bytes(150000):strip_icc()\/hong-kong-milk-tea-recipe-766128_08_preview-5b1fd11043a1030036546084.jpeg"
+    },
+    {
+        "beverage": "thai iced tea",
+        "category": "tea",
+        "info": "Lots of Thai iced teas get their flavor from a prepared syrup or powder, but this one uses real spices and high-quality black tea to give it that authentic flavor. Making it at home is both easier and more affordable than buying it by the glass, and you can adjust the taste by tweaking your spice blend.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/TyNUNRmdoXt0soxgHLIcUPZBdnI=\/2048x1383\/filters:no_upscale():max_bytes(150000):strip_icc()\/real-thai-iced-tea-recipe-765458-11_preview-5b1985fd43a1030036819a72.jpeg"
+    },
+    {
+        "beverage": "masala chai tea",
+        "category": "tea",
+        "info": "Masala Chai, or mixed-spice tea, originates in India and uses a blend of spices, black tea leaves, and milk to give it a warming, comforting flavor. Adjust the spice levels to fit your personal preference once you've mastered this simple recipe.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/iqW1fpFe5LDD4OT_ZXDLI7J5OtY=\/5616x3744\/filters:no_upscale():max_bytes(150000):strip_icc()\/bowl-of-masala-chai-with-almond-milk-on-jute-and-wood-544545975-5a6e77fc6edd6500361a6feb.jpg"
+    },
+    {
+        "beverage": "orange mint tea",
+        "category": "tea",
+        "info": "Sweet and slightly sour orange juice balances out the mentholated zing of fresh mint leaves in this refreshing homemade iced tea. It makes a great way to use up extra mint and celebrate summer in a glass. Garnish your glass with a sprig of mint, for pretty presentation.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/Vt2RAJnq6ghGpoScRA8g3Gnsavc=\/2500x1667\/filters:no_upscale():max_bytes(150000):strip_icc()\/orange-mint-tea-new-56a27a013df78cf772767f72.jpg"
+    },
+    {
+        "beverage": "turmeric tea",
+        "category": "tea",
+        "info": "Many people tout turmeric for its health benefits, but it tastes delicious, especially in this simple and vibrantly colored turmeric tea. You may balk at putting oil in tea, but it gives this beverage a lovely aroma.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/Nr3KogD_X4vkPPZlZbQ5o7GJGIQ=\/3863x2578\/filters:no_upscale():max_bytes(150000):strip_icc()\/herbal-tea-with-turmeric-638824318-5abdb804ae9ab8003729e696.jpg"
+    },
+    {
+        "beverage": "lemon ginger green tea",
+        "category": "tea",
+        "info": "With its light, slightly grassy flavor, green tea makes a wonderfully relaxing beverage. Mixing in a lemon-ginger simple syrup gives it additional zest and citrus notes that tastes great either hot or iced.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/wI53Sjc-jjinhFz5RNmJ5tXmewI=\/2771x2502\/filters:no_upscale():max_bytes(150000):strip_icc()\/green-tea-with-lemon-5828c5665f9b58d5b1141810.jpg"
+    },
+    {
+        "beverage": "cucumber mint green tea",
+        "category": "tea",
+        "info": "Give your green tea extra taste by adding cucumber and mint to the mix. Japanese green tea works well with the added fruit and herbs, since it already has fresh, cooling properties that gets enhanced by cucumber puree, lime juice, and lots of fresh mint.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/3xgAPRwySK3voiexqyFS_9ef4MU=\/6000x4000\/filters:no_upscale():max_bytes(150000):strip_icc()\/close-up-of-drink-with-mint-and-cucumber-674254347-582d04f05f9b58d5b15f8457.jpg"
+    },
+    {
+        "beverage": "roasted corn tea",
+        "category": "tea",
+        "info": "Popular in Korean culture, this roasted corn tea is known as oksoosoo cha or oksusu cha in Korean. It makes a light, mild tea that tastes great with breakfast or brunch or as a refreshing tea-time beverage.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/rXwu-hDJdnmwR_x3BqGNHFqOOsk=\/2760x2021\/filters:no_upscale():max_bytes(150000):strip_icc()\/GettyImages-91747675-58427e845f9b5851e5d29e35.jpg"
+    },
+    {
+        "beverage": "yuzu citron tea",
+        "category": "tea",
+        "info": "Korean\u00a0yuja cha, or yuza tea, is a traditional Korean tea made with citrus and honey, which has a lightly fruity flavor. Use either citron or yuzu or a mix of fruits for this homespun winter warmer.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/61Szfhu2R_rqDH5HZ-Xprv2RC0g=\/2121x1414\/filters:no_upscale():max_bytes(150000):strip_icc()\/yuzu-tea-15050924714e4f9d8cb27537c02c6f66.jpg"
+    },
+    {
+        "beverage": "roasted barley tea",
+        "category": "tea",
+        "info": "Several Asian cultures enjoy this roasted barley tea, which lots of people drink throughout the day as a substitute for plain water. It's called\u00a0bori cha\u00a0or\u00a0boricha in Korean, mugicha in Japan and d\u00e0m\u00e0ich\u00e1\u00a0or\u00a0m\u00e0ich\u00e1 in China. Whatever you call it, barley tea makes a simple, warming beverage.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/YEiJk2VzoQJKH_dEV-YxFfqy0P8=\/4654x3103\/filters:no_upscale():max_bytes(150000):strip_icc()\/korean-barley-tea-2118530-hero-01-972a4538f4624541b1552a917c25b79c.jpg"
+    },
+    {
+        "beverage": "southern fruit tea",
+        "category": "tea",
+        "info": "If you hail from the American South, you (or your grandmother) probably has strong feelings about iced tea. Here, we've got three types of fruit tea that will satisfy a crowd at your next backyard party, tailgate, or just to keep in your own fridge for awhile. Feel free to tweak to your own taste.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/sGlBwYl5LjopVo8aT1LXM8e7iEo=\/1920x1080\/filters:no_upscale():max_bytes(150000):strip_icc()\/Vemba_Id_12701583_SouthernSweetIceTeaRecipe-5a8dc3f1d8fdd5003792a01d.jpg"
+    },
+    {
+        "beverage": "korean whipped coffee",
+        "category": "coffee",
+        "info": "You've seen it on TikTok \u2014 now make it at home. Whipped coffee is a fluffy, creamy, Korean-style twist on your everyday go juice. You need just 4 easy ingredients, plus a hand blender or whisk, to make this milky coffee treat that is delicious hot or cold. Enjoy it dairy-free, if that's your jam, by using a plant-based milk.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/k6QTXM0TNoWJ7cgTVmfR4PrQXGs=\/960x666\/filters:no_upscale():max_bytes(150000):strip_icc()\/KoreanWhippedCoffee-TheSpruce_LeahMaroney-cbcd9d7584e94772945c8b33a051fcf0.jpg"
+    },
+    {
+        "beverage": "moroccan spiced coffee",
+        "category": "coffee",
+        "info": "Spice up your weekday mornings with this uniquely fragrant, eye-opening Moroccan coffee recipe. Aromatic spices added to ground dark coffee beans bring a complex flavor, and a nice balance for the natural bitterness of coffee. Brew it up in an automatic drip machine or French coffee press, and enjoy it either with or without milk for your morning caffeine jolt.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/pC5eS6vdxFbpfSmbSAdBUMin-VI=\/1500x1000\/filters:no_upscale():max_bytes(150000):strip_icc()\/moroccan-spiced-coffee-2394960-hero-02-01fe7d34ec1e49378a5c533d688a19ad.jpg"
+    },
+    {
+        "beverage": "italian affogato",
+        "category": "coffee",
+        "info": "Italian affogato is simply the easiest last-minute dessert to whip up when you entertain guests. You need only 2 ingredients for this elegant treat, made by pouring brewed espresso coffee over a chilled bowl of vanilla ice cream. Add a saucy splash of Italian amaretto or Irish cream liqueur, if you like, for a decadent dessert in a snap.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/bcbyO8u9AizxmWTofXU2uTvkcAo=\/983x655\/filters:no_upscale():max_bytes(150000):strip_icc()\/ItalianAffogato-TheSpruce_SCDesignStudios-7b003c2de0fe44baa0dc1c8f610ad017.jpg"
+    },
+    {
+        "beverage": "turkish coffee",
+        "category": "coffee",
+        "info": "If you're a fan of ending dinner parties with coffee service, you can't go wrong with classic Turkish coffee. Strong, dark, and robust, it is made with a unique brewing method that involves boiling down finely-ground espresso coffee beans with sugar and cardamom spice. Don't fret if you don't possess a traditional Turkish coffee pot \u2014 a small saucepan on the stove-top is a good substitute.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/eNqsj_TerduSxwRC-Bwp-kVl_7c=\/4000x2667\/filters:no_upscale():max_bytes(150000):strip_icc()\/turkish-coffee-recipe-2355497-hero-02-b14bd83fe6114322af9d8040801e8391.jpg"
+    },
+    {
+        "beverage": "vietnamese egg coffee",
+        "category": "coffee",
+        "info": "Frothy and rich with a layer of vanilla-scented custard topping, Vietnamese egg coffee is a little like having your after-dinner coffee and dessert in one cup. This essential strong and dark brewed coffee makes it easy to recreate this popular Vietnamese caf\u00e9 order at home with an electric stand mixer.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/jTCvYG1kKPPNGJo05Rr__wuwDN0=\/5719x3818\/filters:no_upscale():max_bytes(150000):strip_icc()\/vietnamese-egg-coffee-3030347-hero-01-9897b12116fc4439b415c63110aa90e6.jpg"
+    },
+    {
+        "beverage": "cafecito",
+        "category": "coffee",
+        "info": "Cafecito (aka Cuban coffee) is a sweet coffee treat you can enjoy any time of the day. Strong, sugary, and surprisingly dairy-free\u00a0with a crema made from sugar floating over dark-brewed espresso, it is an essential ending to every meal in Cuba. Make it easily at home with our go-to recipe.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/Cv6ug9FxlSp-cUkb8RL0J81Y_Zc=\/983x655\/filters:no_upscale():max_bytes(150000):strip_icc()\/Cafecito-TheSpruce_SCDesignStudios-83ab226324ca4060a0983f8f2ed367f3.jpg"
+    },
+    {
+        "beverage": "hong kong yuanyang coffee with tea",
+        "category": "coffee",
+        "info": "Tasty and energizing yuanyang is a popular hot beverage in Hong Kong. The sweet and creamy pick-me-up is injected with a powerful double dose of caffeine from a unique blend of strong drip coffee and Hong Kong-style milk tea. Try it first thing in the morning as an energizing mid-day drink when you are working from home or any time you want to recharge your batteries.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/eg9UXpJ8BPUVblgBzXAu80ZNnIE=\/3000x2000\/filters:no_upscale():max_bytes(150000):strip_icc()\/yuanyang-coffee-tea-recipe-766158-Hero-01-alt-d8d1aeeafa274a07bc2f0eb684191f3e.jpg"
+    },
+    {
+        "beverage": "french cafe au lait",
+        "category": "coffee",
+        "info": "Paired with a buttery croissant, there is nothing more quintessentially French than cafe au lait for breakfast. You'll feel like you traveled to a sidewalk cafe in Paris when you sip this mellow, soothing beverage made with equal parts steamed milk and hot coffee. There is no fancy equipment required with our genius milk-frothing technique, which relies on a Mason jar.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/eCSWmInOaLBPOJU79ICeJNpFMEY=\/977x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/FrenchCafeauLait-TheSpruce-NitaWest-fcb15f320e954c30b649cd9b733c36ba.jpg"
+    },
+    {
+        "beverage": "mexican coffee",
+        "category": "coffee",
+        "info": "If you enjoy snickerdoodles or any other treat combining coffee, cinnamon, and chocolate, you'll flip for Mexican coffee. It tastes like the perfect marriage between hot chocolate and coffee with added cinnamon spice. Make it with any coffee maker and a saucepan for heating the vanilla-infused milk. Top with whipped cream and chocolate shavings for an indulgent treat.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/dfQVfPyR7NI41vxhBUwCH3SdFN4=\/975x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/MexicanCoffee-TheSpruce-LeahMaroney-28c62ddd52a144d194c1e96c21d89662.jpg"
+    },
+    {
+        "beverage": "delhi style cold coffee",
+        "category": "coffee",
+        "info": "Delhi-style cold coffee is a refreshing, cold coffee drink that remains in high demand in India, where the summers are scorching. It is essentially a caffeinated milkshake made by blending instant coffee grounds with milk, sugar, and ice. Cool off with this quick and easy blended drink on hot days in your backyard or serve it at cookouts.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/YC37VJoHHJqwFtdu9QK9U8ErSuc=\/3061x2041\/filters:no_upscale():max_bytes(150000):strip_icc()\/delhi-style-cold-coffee-1957419-hero-01-647f344926cb4680a8183201a1e5261f.jpg"
+    },
+    {
+        "beverage": "swedish egg coffee",
+        "category": "coffee",
+        "info": "If you can't travel to Sweden, you can still enjoy this traditional Scandinavian coffee. You make it in a saucepan, by adding a raw egg to coffee grounds, then simply add water, boil, and strain, for an incredibly smooth, non-bitter cup. It makes the perfect accompaniment to your morning bagel, Danish, or cinnamon roll.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/ZoWca4i38Dt74VIaHd-D2qoY8t0=\/981x655\/filters:no_upscale():max_bytes(150000):strip_icc()\/SwedishEggCoffee-TheSpruce_JuliaHartbeck-566b1155a8744e7aa60fd6a1619b97d8.jpg"
+    },
+    {
+        "beverage": "cafe con leche",
+        "category": "coffee",
+        "info": "Spanish-style cafe con leche (literally \"coffee with milk\") is a hot espresso drink with steamed milk that anyone can make. Simply heat milk in a saucepan with no fancy tricks involved and combine with strong brewed coffee from a stove-top espresso maker. Multiply the single-serving recipe as needed to satisfy additional caffeine addicts.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/TIjUecYZE7cQB8LmPiQUwMXLfbg=\/983x655\/filters:no_upscale():max_bytes(150000):strip_icc()\/CafeConLeche-TheSpruce_SCDesignStudios-e1e8fff2f670444f9474e34de6f6e669.jpg"
+    },
+    {
+        "beverage": "new orleans coffee",
+        "category": "coffee",
+        "info": "New Orleans is famous for its unique, eclectic culture, so it should come as no surprise that this region of America has come up with its delicious way to enjoy black coffee. Chicory is the magical ingredient that transforms an ordinary pot of drip coffee into a wonderfully thick and rich brew with a distinctive chocolate-caramel flavor.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/l6r0u16hxp3SDxrVwb5QxRkZTns=\/970x650\/filters:no_upscale():max_bytes(150000):strip_icc()\/NewOrleansCoffeeCafeNoir-chryscampos.com-GettyImages-631ab2ab05da4799b028c59221c5ee4a.jpg"
+    },
+    {
+        "beverage": "irish coffee cocktail",
+        "category": "coffee",
+        "info": "Iconic Irish coffee is a nostalgic, warming tipple that has been popular for decades and makes a great choice on chilly evenings. Make this ski chalet treat with hot coffee, the best Irish whiskey you can stand to buy, a little brown sugar, and fluffy whipped cream to top it all off.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/3CfVEr_CTpP9PLfU69mwm0RzB0s=\/983x655\/filters:no_upscale():max_bytes(150000):strip_icc()\/IrishCoffeeCocktail-TheSpruce-38d4511402f346dfa1ac3d8e4e5ccf12.jpg"
+    },
+    {
+        "beverage": "italian cappuccino",
+        "category": "coffee",
+        "info": "In Italian cappuccino means \"little cap,\" which is a great description of the head of crema and white foam that tops the classic beverage. It is similar to the French cafe au lait in that it uses shots of espresso, but instead of including plenty of steamed milk, the Italian version uses a scant amount and goes heavy on the foam for a stronger coffee flavor.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/7H2eLBaZRtxdG3wgXeGmrfGom7k=\/983x655\/filters:no_upscale():max_bytes(150000):strip_icc()\/ItalianCappuccino-TheSpruce_AhlamRaffii-11c3df05c60a491187422789e4b04c63.jpg"
+    },
+    {
+        "beverage": "german pharisaeer kaffee",
+        "category": "coffee",
+        "info": "Pharisaer is a beloved German coffee-based dessert drink with rum and whipped cream. It is traditionally served in a high cup with a saucer, as a sweet ending to German meals. Serve it for a fun and delicious ending to a dinner of wiener schnitzel, or a grown-up treat on any cold or rainy evening.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/h4AYxrm8yv2Lh9at8aUxsuMAUOI=\/709x640\/filters:no_upscale():max_bytes(150000):strip_icc()\/GermanPharisaeerKaffee-GoogleImages_CreativeCommons3.0-bd6eba926d3749c3bc839120780e372d.jpg"
+    },
+    {
+        "beverage": "italian coffee cocktail",
+        "category": "coffee",
+        "info": "The Italian coffee cocktail is a fabulous way to get acquainted with Strega, an Italian digestif with the colorful, colloquial name of the \"witches liqueur.\" It brings its distinct, herbal flavor, to this warm coffee cocktail that is traditionally garnished with a dollop of whipped cream, and ground or freshly-grated nutmeg.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/5A-8ySmQk7W4CA5TT6Mo-zx_bZg=\/983x655\/filters:no_upscale():max_bytes(150000):strip_icc()\/ItalianCoffeeCocktail-BrianLestart_Photolibrary_GettyImages-90dc078227c0476e9e007078c6107414.jpg"
+    },
+    {
+        "beverage": "thai iced coffee",
+        "category": "coffee",
+        "info": "Blending up your own iced coffee at home is a clever way to save big bucks on your coffeehouse spending. When you want to cool off, try this Thai iced beverage that is creamy and super-easy to stir up in pitcher, then chill in the fridge. You don't even need a blender \u2014 just some strongly brewed coffee, sweetened condensed milk, and evaporated milk or heavy cream.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/R2v1LW0MIOBSdEhBQd8hgYlc4Ig=\/2048x1366\/filters:no_upscale():max_bytes(150000):strip_icc()\/easy-thai-iced-coffee-3217377-hero-01-61e92cea55c54166a82706676f904c60.jpg"
+    },
+    {
+        "beverage": "yemeni ginger coffee qishr",
+        "category": "coffee",
+        "info": "Ginger coffee (or qishr) is the coffee drink of choice in Middle Eastern Yemen, where aromatic spices are an essential part of the cuisine. This shortcut recipe uses only 4 ingredients, including easy-to-find ground cinnamon and ginger. It takes mere minutes to brew for a nice change from your usual morning fix.",
+        "image": "https:\/\/www.thespruceeats.com\/thmb\/zZNlT7KT4UsKJtWJLbNoWRAuG0c=\/2121x1414\/filters:no_upscale():max_bytes(150000):strip_icc()\/GettyImages-500816711-5847a50a5f9b5851e518ac06.jpg"
+    }
+]
