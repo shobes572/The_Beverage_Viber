@@ -12,21 +12,21 @@ Beverage.init(
             primaryKey: true,
             autoIncrement: true
         },
-        title: {
+        beverage: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        description: {
-            type: DataTypes.STRING,
+        info: {
+            type: DataTypes.TEXT,
             allowNull: false
         },
         image: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false
         },
-        caffiene: {
+        category: {
             type: DataTypes.STRING,
-            allowNull: true
+            allowNull: false
         }
     },
     {
