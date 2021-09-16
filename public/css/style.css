@@ -1,3 +1,4 @@
+
 /* fixed footer */
 body {
   display: flex;
@@ -7,6 +8,15 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+/* make text more polished */
+.text-lightest  {
+  font-weight: lighter;
+}
+
+.text-lighter {
+  font-weight: 250;
 }
 
 /* make sidenav closable on very narrow screens */
