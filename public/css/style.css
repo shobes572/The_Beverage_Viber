@@ -43,7 +43,7 @@ main {
 }
 
 @media screen and (max-width: 500px) {
-nav .brand-logo {
+  nav .brand-logo {
   font-size: 1.5rem;
 }}
 

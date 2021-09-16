@@ -36,10 +36,26 @@
   </nav>
 
   <!-- main page content -->
-  <main>
+  <!-- <main>
     <div class="container">
       <h1 class="text-lighter">The Beverage Viber</h1>
       <h2 class="text-lighter">Because we have to make our coffee before we've had our coffee</h2>
+    </div>
+  </main> -->
+
+    <!-- ADDING parallax -->
+  <main>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/erol-ahmed-54hUU5pNSvo-unsplash.jpeg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">The Beverage Viber</h2>
+        <p class="grey-text text-darken-3 lighten-3">Because we have to make our coffee before we've had our coffee</p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/eric-parks-TsNwtbCih0M-unsplash.jpeg"></div>
     </div>
   </main>
   
@@ -109,6 +125,12 @@
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems, {});
     });
+
+    // for parallax
+    document.addEventListener("DOMContentLoaded", function() {
+      const elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems, {});
+    })
   </script>
 
 </body>
