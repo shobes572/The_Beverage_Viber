@@ -1,16 +1,17 @@
+/* fixed footer */
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-#icon-set {
-  display: flex;
-  flex-direction: row;
-}
-
 main {
   flex: 1 0 auto;
+}
+
+/* make sidenav closable on very narrow screens */
+.sidenav {
+  width: 250px;
 }
 
 /* CSS for making tiny bubbles of our photos */
@@ -20,3 +21,23 @@ main {
   max-width: 60px;
   margin: 2px;
 }
+
+#icon-set {
+  display: flex;
+  flex-direction: row;
+}
+
+/* make full brand logo text visible on narrow viewports */
+.brand-logo {
+  width: fit-content;
+}
+
+@media screen and (max-width: 500px) {
+nav .brand-logo {
+  font-size: 1.5rem;
+}}
+
+@media screen and (max-width: 363px) {
+  nav .brand-logo {
+    font-size: 1.45rem;
+}}
