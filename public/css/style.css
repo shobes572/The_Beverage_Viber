@@ -52,6 +52,20 @@ main {
   }
 }
 
+/* loginSignup styling */
+label {
+  font-size: x-large !important;
+}
+
+input {
+  margin-top: 10px !important;
+}
+
+.signup-column {
+  /* display: flex;
+  flex-direction: column; */
+}
+
 /* reduce font size and center content on narrow viewports */
 @media screen and (max-width: 500px) {
   nav .brand-logo {
