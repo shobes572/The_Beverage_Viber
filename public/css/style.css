@@ -1,16 +1,31 @@
+
+/* fixed footer */
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-#icon-set {
-  display: flex;
-  flex-direction: row;
-}
-
 main {
   flex: 1 0 auto;
+}
+
+/* make text more polished */
+.text-lightest  {
+  font-weight: lighter;
+}
+
+.text-lighter {
+  font-weight: 250;
+}
+
+.btn:hover {
+  background-color: #40c4ff !important;
+}
+
+/* make sidenav closable on very narrow screens */
+.sidenav {
+  width: 250px;
 }
 
 /* CSS for making tiny bubbles of our photos */
@@ -20,3 +35,48 @@ main {
   max-width: 60px;
   margin: 2px;
 }
+
+#icon-set {
+  display: flex;
+  flex-direction: row;
+}
+
+/* make full brand logo text visible on narrow viewports */
+.brand-logo {
+  width: fit-content;
+}
+
+@media screen and (min-width: 501px) {
+  nav .brand-logo {
+    margin-left: 10px;
+  }
+}
+
+/* reduce font size and center content on narrow viewports */
+@media screen and (max-width: 500px) {
+  nav .brand-logo {
+  font-size: 1.5rem;  
+  }
+
+  .parallax-container {
+  height: 300px;
+  }
+
+  h2, h5, p, .footer-copyright div {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: xx-large;
+  }
+
+  #icon-set {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 363px) {
+  nav .brand-logo {
+    font-size: 1.45rem;
+}}
