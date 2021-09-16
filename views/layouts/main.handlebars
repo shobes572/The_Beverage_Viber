@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- materialize icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- materialize compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- materialize compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Beverage Viber</title>
+</head>
+
+{{#if loggedIn}}
+
+<a href="/suggestbev"></a> 
+{{else}}
+        <a href="/login-signup">login</a>
+        {{/if}}
+
+<!-- footer -->
+  <footer id="footer" class="page-footer light-blue darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="yellow-text text-accent-4 text-lightest">The Beverage Viber</h5>
+          <p class="grey-text text-lighten-4 text-lighter">Are you a coffee fanatic? Do you prefer a lovely dose of Chai? Can't decide??? Well do we have an app for you!</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="yellow-text text-accent-4 text-lightest">Contact Us!</h5>
+          <ul id="icon-set">
+
+            <!-- Cat -->
+            <li><a class="grey-text text-lighten-3" href="https://github.com/catupperman" target="_blank"><img class="icon" src="https://avatars.githubusercontent.com/u/84750356?v=4" alt="catupperman" title="Cat"></a></li>
+
+            <!-- John-Mark -->
+            <li><a class="grey-text text-lighten-3" href="https://github.com/Kalmnir" target="_blank"><img class="icon" src="https://avatars.githubusercontent.com/u/84051952?v=4" alt="Kalmnir" title="John-Mark"></a></li>
+
+            <!-- Kira -->
+            <li><a class="grey-text text-lighten-3" href="https://github.com/j1741" target="_blank"><img class="icon" src="https://avatars.githubusercontent.com/u/84889065?v=4" alt="J1741" title="Kira"></a></li>
+
+            <!-- Shobair -->
+            <li><a class="grey-text text-lighten-3" href="https://github.com/shobes572" target="_blank"><img class="icon" src="https://avatars.githubusercontent.com/u/60012742?v=4" alt="shobes572" title="Shobair"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container yellow-text text-accent-4 text-lighter">
+      Copyright © 2021
+      </div>
+    </div>
+  </footer>
+
+  <!-- modal content -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+  <!-- event listeners -->
+  <script>
+    // for modal
+    document.addEventListener('DOMContentLoaded', function () {
+      const elems = document.querySelectorAll('.modal');
+      const instances = M.Modal.init(elems, {});
+    });
+
+    // for hamburger menu
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, {});
+    });
+
+    // for parallax
+    document.addEventListener("DOMContentLoaded", function() {
+      const elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems, {});
+    })
+  </script>
+
+</body>
+</html>
