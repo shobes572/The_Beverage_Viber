@@ -85,7 +85,7 @@
     <!-- hamburger menu content -->
   <ul class="sidenav" id="mobile-demo">
     <!-- modal trigger -->
-    <li><a href="#modal1" class="modal-trigger">Hello There</a></li>
+    <li><a href="#modal1" class="modal-trigger">Hello {{#if loggedIn}} {{username}} {{else}} There {{/if}}</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Back</a></li>
   </ul>
