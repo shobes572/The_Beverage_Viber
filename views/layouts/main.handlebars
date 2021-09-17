@@ -13,6 +13,20 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>Beverage Viber</title>
 </head>
+  <!-- nav bar -->
+  <nav>
+    <div class="nav-wrapper light-blue darken-4">
+      <a class="brand-logo yellow-text text-accent-4 text-lightest">The Beverage Viber</a>
+
+      <!-- nav list -->
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- modal trigger -->
+        <li><a href="#modal1" class="waves-effect waves-light btn light-blue darken-1 modal-trigger"> 
+          {{#if loggedIn}}
+        {{username}} 
+        {{else}}
+        There
+        {{/if}}</a></li>
 
 {{{body}}}
 

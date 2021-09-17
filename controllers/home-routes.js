@@ -32,6 +32,15 @@ router.get('/login-signup', async (req, res) => {
     }
 });
 
+//when user logs in or signs up, route to direct user to the beverage selection page: how I think the code should work router.get with the named /bevselect
+
+//when user selects coffee, a beverage of coffee is shown on new page: how I think the code should work router.get with the named /coffee,  get one? attributes category:coffee
+
+//when user selects tea, a beverage of tea is shown on new page: how I think the code should work router.get with the named /tea, get one? attributes category: tea
+
+//when user selects suprise me, a beverage of either coffee or tea will be displayed: how I think the code should work router.get /supriseme!, get one? no need for selected attributes
+
+
 module.exports = router;
 
 
