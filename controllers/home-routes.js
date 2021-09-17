@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { User, Beverage } = require('../models');
+const withAuth = require('../utils/auth');
 
 //Content shows only if the user is logged in
 
@@ -13,7 +14,7 @@ router.get('/', withAuth, async (req, res) => {
   
       res.render('homepage', {
         users,
-        logged_in: req.session.logged_in,
+        loggedIn: req.session.loggedIn,
       });
 
     } catch (err) {
@@ -23,11 +24,11 @@ router.get('/', withAuth, async (req, res) => {
 
 
 
-router.get('/login', async (req, res) => {
+router.get('/login-signup', async (req, res) => {
     if (req.session.logged_in){
         res.redirect('/');
     } else {
-        res.render('homepage');
+        res.render('login-signup');
     }
 });
 
