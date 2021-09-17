@@ -10,7 +10,7 @@ main {
   flex: 1 0 auto;
 }
 
-/* make text more polished */
+/* make text look cleaner */
 .text-lightest  {
   font-weight: lighter;
 }
@@ -62,19 +62,17 @@ input {
 }
 
 .card {
-  margin: 50px;
+  margin: 20px;
   max-width: 400px;
 }
 
+/* beverage and suggest styling */
 .beverage-row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 20px;
 }
-
-/* .responsive {
-  max-width: 400px;
-  height: 100%;
-} */
 
 /* reduce font size and center content on narrow viewports */
 @media screen and (max-width: 500px) {
