@@ -26,7 +26,7 @@ router.get('/', withAuth, async (req, res) => {
 
 router.get('/login-signup', async (req, res) => {
     if (req.session.logged_in){
-        res.redirect('/');
+        res.redirect('suggestion');
     } else {
         res.render('login-signup');
     }
@@ -34,12 +34,27 @@ router.get('/login-signup', async (req, res) => {
 
 //when user logs in or signs up, route to direct user to the beverage selection page: how I think the code should work router.get with the named /bevselect
 
+router.get('/bevselect', async(req, res) =>{
+
+})
+
 //when user selects coffee, a beverage of coffee is shown on new page: how I think the code should work router.get with the named /coffee,  get one? attributes category:coffee
+
+router.get('/coffee', async(req, res)=>{
+
+})
 
 //when user selects tea, a beverage of tea is shown on new page: how I think the code should work router.get with the named /tea, get one? attributes category: tea
 
+router.get('/tea', async (req, res) =>{
+
+})
+
 //when user selects suprise me, a beverage of either coffee or tea will be displayed: how I think the code should work router.get /supriseme!, get one? no need for selected attributes
 
+router.get('/surpriseme!', async(req, res) =>{
+  
+})
 
 module.exports = router;
 
