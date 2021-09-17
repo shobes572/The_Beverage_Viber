@@ -20,8 +20,8 @@ router.get('/:id', (req, res) => {
         });
 });
 
-router.get('/:bevType', (req, res) => {
-    if (bevType === 'none') {
+router.get('/category/:bevType', (req, res) => {
+    if (req.params.bevType === 'none') {
         Beverage.findAll({
         }).then(dbBeverageData => {
             if (!dbBeverageData) {
@@ -29,7 +29,7 @@ router.get('/:bevType', (req, res) => {
                 return;
             }
             let idList = dbBeverageData.map(beverage => beverage.id)
-            let randomId = idList[math.floor(math.random() * idList.length)]
+            let randomId = idList[Math.floor(Math.random() * idList.length)]
             let randomBeverage = dbBeverageData.filter(beverage => beverage.id === randomId)
             res.json(randomBeverage);
         })
@@ -48,7 +48,7 @@ router.get('/:bevType', (req, res) => {
                 return;
             }
             let idList = dbBeverageData.map(beverage => beverage.id)
-            let randomId = idList[math.floor(math.random() * idList.length)]
+            let randomId = idList[Math.floor(Math.random() * idList.length)]
             let randomBeverage = dbBeverageData.filter(beverage => beverage.id === randomId)
             res.json(randomBeverage);
         })
