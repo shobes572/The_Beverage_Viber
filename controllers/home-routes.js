@@ -13,7 +13,7 @@ router.get('/', withAuth, async (req, res) => {
   
       res.render('homepage', {
         users,
-        logged_in: req.session.logged_in,
+        loggedIn: req.session.loggedIn,
       });
 
     } catch (err) {
@@ -27,7 +27,7 @@ router.get('/login', async (req, res) => {
     if (req.session.logged_in){
         res.redirect('/');
     } else {
-        res.render('homepage');
+        res.render('login-signup');
     }
 });
 
