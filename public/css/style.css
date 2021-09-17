@@ -61,9 +61,14 @@ input {
   margin-top: 10px !important;
 }
 
-.signup-column {
-  /* display: flex;
-  flex-direction: column; */
+.card {
+  margin: 50px;
+  /* width: 200px; */
+}
+
+.beverage-row {
+  display: flex;
+  justify-content: center;
 }
 
 /* reduce font size and center content on narrow viewports */
