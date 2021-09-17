@@ -63,13 +63,18 @@ input {
 
 .card {
   margin: 50px;
-  /* width: 200px; */
+  max-width: 400px;
 }
 
 .beverage-row {
   display: flex;
   justify-content: center;
 }
+
+/* .responsive {
+  max-width: 400px;
+  height: 100%;
+} */
 
 /* reduce font size and center content on narrow viewports */
 @media screen and (max-width: 500px) {
