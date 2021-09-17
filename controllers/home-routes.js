@@ -5,55 +5,87 @@ const withAuth = require('../utils/auth');
 //Content shows only if the user is logged in
 
 router.get('/', withAuth, async (req, res) => {
-    try {
-      const userData = await User.findAll({
-        attributes: { exclude: ['password'] },
-      });
-  
-      const users = userData.map((project) => project.get({ plain: true }));
-  
-      res.render('homepage', {
-        users,
-        loggedIn: req.session.loggedIn,
-      });
+  try {
+    const userData = await User.findAll({
+      attributes: { exclude: ['password'] },
+    });
 
-    } catch (err) {
-      res.status(500).json(err);
-    }
-  });
+    const users = userData.map((project) => project.get({ plain: true }));
+
+    res.render('homepage', {
+      users,
+      loggedIn: req.session.loggedIn,
+    });
+
+  } catch (err) {
+    res.status(418).json(err);
+  }
+});
 
 
 
 router.get('/login-signup', async (req, res) => {
-    if (req.session.logged_in){
-        res.redirect('suggestion');
-    } else {
-        res.render('login-signup');
-    }
+  if (req.session.logged_in) {
+    res.redirect('suggestion');
+  } else {
+    res.render('login-signup');
+  }
 });
 
 //when user logs in or signs up, route to direct user to the beverage selection page: how I think the code should work router.get with the named /bevselect
 
-router.get('/bevselect', async(req, res) =>{
-
-})
+router.get('/bevselect', async (req, res) => {
+  res.render('suggestion')
+});
 
 //when user selects coffee, a beverage of coffee is shown on new page: how I think the code should work router.get with the named /coffee,  get one? attributes category:coffee
 
-router.get('/coffee', async(req, res)=>{
+router.get('/coffee', async (req, res) => {
+  try {
+    const userSelectCoffee = await Beverage.findOne({
+      attributes: category = "coffee"
+    });
 
-})
+    res.render('beverage', {
+      userSelectCoffee
+    });
+
+  } catch (err) {
+    res.status(418).json(err);
+  }
+});
 
 //when user selects tea, a beverage of tea is shown on new page: how I think the code should work router.get with the named /tea, get one? attributes category: tea
 
-router.get('/tea', async (req, res) =>{
+router.get('/tea', async (req, res) => {
+  try {
+    const userSelectTea = await Beverage.findOne({
+      attributes: category = "tea"
+    });
 
-})
+    res.render('beverage', {
+      userSelectTea
+    });
+  } catch (err) {
+    res.status(418).json(err);
+  }
+});
 
 //when user selects suprise me, a beverage of either coffee or tea will be displayed: how I think the code should work router.get /supriseme!, get one? no need for selected attributes
 
-router.get('/surpriseme!', async(req, res) =>{
-  
+router.get('/surpriseme!', async (req, res) => {
+  try{
+    const userSelectSurprise = await Beverage.findOne({
+      attributes: category
+    });
+
+    res.render('beverage', {
+      userSelectSurprise
+    });
+  } catch (err) {
+    res.status(418).json(err);
+  }
+
 })
 
 module.exports = router;
