@@ -61,10 +61,20 @@ input {
   margin-top: 10px !important;
 }
 
-.signup-column {
-  /* display: flex;
-  flex-direction: column; */
+.card {
+  margin: 50px;
+  max-width: 400px;
 }
+
+.beverage-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* .responsive {
+  max-width: 400px;
+  height: 100%;
+} */
 
 /* reduce font size and center content on narrow viewports */
 @media screen and (max-width: 500px) {
