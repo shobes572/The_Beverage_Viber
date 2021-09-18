@@ -50,7 +50,7 @@ router.post('/', (req, res) => {
                 req.session.email = dbUserData.email;
                 req.session.loggedIn = true;
 
-                res.json(dbUserData);
+                res.json({ session_data: req.session });
             });
         })
         .catch(err => {
@@ -80,7 +80,7 @@ router.post('/login', (req, res) => {
             req.session.username = dbUserData.username;
             req.session.loggedIn = true;
 
-            res.json({ user: dbUserData, message: 'You are now logged in!' });
+            res.json({ session_data: req.session });
         });
     })
         .catch(err => {
@@ -91,9 +91,8 @@ router.post('/login', (req, res) => {
 //Log Out Route
 router.post('/logout', (req, res) => {
     if (req.session.loggedIn) {
-        req.session.destroy(() => {
-            res.status(204).end();
-        });
+        req.session.loggedIn = false;
+        res.json({ session_data: req.session });
     }
 });
 

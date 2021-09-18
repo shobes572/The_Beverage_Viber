@@ -17,34 +17,31 @@
   <nav>
     <div class="nav-wrapper light-blue darken-4">
       <a class="brand-logo yellow-text text-accent-4 text-lightest">The Beverage Viber</a>
-
       <!-- nav list -->
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        {{#if session_data.loggedIn}}
         <!-- modal trigger -->
-        <li><a href="#modal1" class="waves-effect waves-light btn light-blue darken-1 modal-trigger"> 
-        Hello  
-        <script>console.log(session.loggedIn)</script>
-        {{#if loggedIn}}
-        {{username}} 
-        {{else}}
-        There
-        {{/if}}</a></li>
+        <li><a href="#modal1" class="waves-effect waves-light btn light-blue darken-1 modal-trigger">Hello {{session_data.username}}</a></li>
         <li><a href="#footer" class="waves-effect waves-light btn light-blue darken-1">About</a></li>
-        <li><a href="/api/users/logout" class="waves-effect waves-light btn light-blue darken-1">Log Out</a></li>
-        {{#if loggedIn}}
-        <li><a href="/api/users/logout">Log Out</a></li>
+        <li><a id="logout" class="waves-effect waves-light btn light-blue darken-1">Log Out</a></li>
         {{else}}
-        <li><a href="/login-signup">Log In or Sign Up</a></li>
+        <li><a href="#modal1" class="waves-effect waves-light btn light-blue darken-1 modal-trigger">Hello There</a></li>
+        <li><a href="#footer" class="waves-effect waves-light btn light-blue darken-1">About</a></li>
+        <li><a href="/login-signup" class="waves-effect waves-light btn light-blue darken-1">Login/Signup</a></li>
         {{/if}}
       </ul>
-
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-
     </div>
   </nav>
- 
-{{{body}}}
-
+<body>
+  <!-- main page content -->
+  <main>
+    <!-- parallax -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="/images/erol-ahmed-54hUU5pNSvo-unsplash.jpeg"></div>
+    </div>
+    {{{body}}}
+  </main>
 <!-- footer -->
   <footer id="footer" class="page-footer light-blue darken-4">
     <div class="container">
@@ -93,37 +90,27 @@
    <!-- hamburger menu content -->
   <ul class="sidenav" id="mobile-demo">
     <!-- modal trigger -->
+    {{#if session_data.loggedIn}}
+    <li><a href="#modal1" class="modal-trigger">Hello {{session_data.username}}</a></li>
+    <li><a href="#footer">About</a></li>
+    <li><a id="logout">Log Out</a></li>
+    {{else}}
     <li><a href="#modal1" class="modal-trigger">Hello There</a></li>
     <li><a href="#footer">About</a></li>
-    <script>console.log("******* loggedIn is:*******\n", loggedIn)</script>
-    {{#if loggedIn}}
-    <li><a href="/api/users/logout">Log Out</a></li>
-    {{else}}
     <li><a href="/login-signup">Log In or Sign Up</a></li>
     {{/if}}
   </ul>
-
-
-  <!-- event listeners -->
+  <script src="/js/script.js"></script>
   <script>
-    // for modal
-    document.addEventListener('DOMContentLoaded', function () {
-      const elems = document.querySelectorAll('.modal');
-      const instances = M.Modal.init(elems, {});
+    // Event listener to load materialize elements on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      const ModalElems = document.querySelectorAll('.modal');
+      const SidebarElems = document.querySelectorAll('.sidenav');
+      const ParallaxElems = document.querySelectorAll('.parallax');
+      const ModalInstances = M.Modal.init(ModalElems, {});
+      const SidebarInstances = M.Sidenav.init(SidebarElems, {});
+      const ParallaxInstances = M.Parallax.init(ParallaxElems, {});
     });
-
-    // for hamburger menu
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems, {});
-    });
-
-    // for parallax
-    document.addEventListener("DOMContentLoaded", function() {
-      const elems = document.querySelectorAll('.parallax');
-      var instances = M.Parallax.init(elems, {});
-    })
   </script>
-
 </body>
 </html>
