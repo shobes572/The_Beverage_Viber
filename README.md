@@ -25,7 +25,11 @@
 
 ## Description
 > This project was built by Coffee and Tea aficionados.  The goal was to help with the ever internal debate of whether to have a steamy hot cup of tea, or that jittery goodness of Java Joe.  The beverage viber helps you decide if you'd like to have a Coffee or Tea, and will generate a recipe that coordiates with your choice. If you have no clue, well then let our random generator decide for you!    This was built using the node tools ```mysql2``` ``` express```  ```dotenv``` and ```sequelize```.
-[Video]()
+
+<p align="center">
+  <img width="560" height="400" src="images/demo.gif">
+</p>
+
 
 ## Installation
 > We pulled the [npm](https://www.npmjs.com/) package, aka ```package.json```, entered ```npm install``` , and then used the ```require``` method to direct the routes for each of the items within the directory.  
@@ -39,13 +43,13 @@
 > * [Open Source Initiative](https://opensource.org/licenses/BSD-3-Clause) 
 > * [Handlebars](https://handlebarsjs.com/)
 ## Contributions
-> Team JSKC!! John-Mark Sackett, Shobair Abidi, Kira Griffitt, and Catherine Upperman.  We would like to thank our TA's Ross and Andrew for their help debugging, and general moral support. 
+> Team JSKC!! John-Mark Sackett, Shobair Abidi, Kira Griffitt, and Catherine Upperman.  We would like to thank our TA's Ross and Andrew for their help debugging, and general moral support. Oh and thanks to our teacher Dan, for always blaming Cat for everything that went wrong, and then helping us to fix it.
 ## Testing
-> To test the data base we used [Insomnia](https://insomnia.rest/) to run the different, GET, POST, PUT, and DELETE methods. We then used testing in the local host before pushing the product up to heroku.  
->![Test]()
+> To test the data base we used [Insomnia](https://insomnia.rest/) to run the different, GET, POST, PUT, and DELETE methods. We ran ```node server.js``` in the terminal multiple times to test the webpage, to ensure the look and functionality were there. Once we were mostly satisfied with the product, we pushed to heroku for deployment.
+
 ## License
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
-Copyright (C) 2021 catupperman
+Copyright (C) 2021 kira-cat-johnmark-shobair
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
         
@@ -56,5 +60,6 @@ Copyright (C) 2021 catupperman
 * :octocat: [CatUpperman](github.com/catupperman), [John-Mark](https://github.com/Kalmnir), [Shobair](https://github.com/shobes572), [Kira](https://github.com/J1741)
 * email: Cat: catupperman@gmail.com, Kira: jseventeen41@gmail.com, John-Mark: jmsackett91@gmail.com, Shobair: shobair.abidi@gmail.com
 * Prefered Contact: Email or GitHub
-
-![Owl](images/owl.gif)
+<p align="center">
+  <img width="460" height="300" src = "images/owl.gif">
+</p>

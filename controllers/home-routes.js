@@ -22,8 +22,6 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
-
-
 router.get('/login-signup', async (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('bevselect');
@@ -34,12 +32,14 @@ router.get('/login-signup', async (req, res) => {
   }
 });
 
-//when user logs in or signs up, route to direct user to the beverage selection page: how I think the code should work router.get with the named /bevselect
-
 router.get('/bevselect', async (req, res) => {
   res.render('suggestion', {
     session_data: req.session,
   });
 });
+
+router.get('/api/users/logout', async(req, res) =>{
+  res.render('login-signup');
+})
 
 module.exports = router;
