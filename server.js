@@ -27,6 +27,12 @@ const sess = {
 
 app.use(session(sess));
 
+// middleware to support conditional rendering of log in/out buttons 
+app.use((req, res, next) => {
+  res.locals.session = req.session;
+  next();
+});
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
