@@ -21,6 +21,7 @@ router.get('/:id', (req, res) => {
 });
 
 router.get('/category/:bevType', (req, res) => {
+    console.log('SUCCESS')
     if (req.params.bevType === 'none') {
         Beverage.findAll({
         }).then(dbBeverageData => {
@@ -31,7 +32,7 @@ router.get('/category/:bevType', (req, res) => {
             let idList = dbBeverageData.map(beverage => beverage.id)
             let randomId = idList[Math.floor(Math.random() * idList.length)]
             let randomBeverage = dbBeverageData.filter(beverage => beverage.id === randomId)
-            res.json(randomBeverage);
+            res.render('beverage', randomBeverage[0].toJSON());
         })
             .catch(err => {
                 console.log(err);
@@ -50,7 +51,7 @@ router.get('/category/:bevType', (req, res) => {
             let idList = dbBeverageData.map(beverage => beverage.id)
             let randomId = idList[Math.floor(Math.random() * idList.length)]
             let randomBeverage = dbBeverageData.filter(beverage => beverage.id === randomId)
-            res.json(randomBeverage);
+            res.render('beverage', randomBeverage[0].toJSON());
         })
             .catch(err => {
                 console.log(err);
