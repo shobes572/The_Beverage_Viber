@@ -32,7 +32,10 @@ router.get('/category/:bevType', (req, res) => {
             let idList = dbBeverageData.map(beverage => beverage.id)
             let randomId = idList[Math.floor(Math.random() * idList.length)]
             let randomBeverage = dbBeverageData.filter(beverage => beverage.id === randomId)
-            res.render('beverage', randomBeverage[0].toJSON());
+            res.render('beverage', {
+                session_data: req.session,
+                beverage_data: randomBeverage[0].toJSON()
+              });
         })
             .catch(err => {
                 console.log(err);
@@ -51,7 +54,10 @@ router.get('/category/:bevType', (req, res) => {
             let idList = dbBeverageData.map(beverage => beverage.id)
             let randomId = idList[Math.floor(Math.random() * idList.length)]
             let randomBeverage = dbBeverageData.filter(beverage => beverage.id === randomId)
-            res.render('beverage', randomBeverage[0].toJSON());
+            res.render('beverage', {
+                session_data: req.session,
+                beverage_data: randomBeverage[0].toJSON()
+              });
         })
             .catch(err => {
                 console.log(err);

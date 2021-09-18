@@ -27,21 +27,21 @@ Review.init(
             }
         },
         //foreign key from User
-        user_id: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'user',
-                key: 'id'
-            }
-        },
-        //foreign key from Beverage
-        beverage_id: {
-            type: DataTypes.INTEGER,
-            reference: {
-                model: 'beverage',
-                key: 'id'
-            }
-        }
+        // user_id: {
+        //     type: DataTypes.INTEGER,
+        //     references: {
+        //         model: 'user',
+        //         key: 'id'
+        //     }
+        // },
+        // //foreign key from Beverage
+        // beverage_id: {
+        //     type: DataTypes.INTEGER,
+        //     reference: {
+        //         model: 'beverage',
+        //         key: 'id'
+        //     }
+        // }
     },
     {
         sequelize,
