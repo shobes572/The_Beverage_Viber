@@ -14,13 +14,13 @@
 </p>
 
 ## Table of Contents
-* [description](#description)
-* [installation](#installation)
-* [methods](#methods)
-* [contributions](#contributions)
-* [testing](#testing)
-* [license](#license)
-* [contact](#contact)
+- [Table of Contents](#table-of-contents)
+- [Description](#description)
+- [Installation](#installation)
+- [Contributions](#contributions)
+- [Testing](#testing)
+- [License](#license)
+- [Contact](#contact)
 
 
 ## Description
@@ -30,6 +30,7 @@
   <img width="560" height="400" src="images/demo.gif">
 </p>
 
+> Feel free to visit and test our application [Here!](https://guarded-meadow-10732.herokuapp.com/)
 
 ## Installation
 > We pulled the [npm](https://www.npmjs.com/) package, aka ```package.json```, entered ```npm install``` , and then used the ```require``` method to direct the routes for each of the items within the directory.  
