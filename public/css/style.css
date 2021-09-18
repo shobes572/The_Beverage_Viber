@@ -74,6 +74,11 @@ input {
   margin: 40px 20px;
 }
 
+.card-title {
+  background-color: #00000050;
+  font-weight: normal;
+}
+
 /* reduce font size and center content on narrow viewports */
 @media screen and (max-width: 500px) {
   nav .brand-logo {
