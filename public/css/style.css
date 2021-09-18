@@ -109,7 +109,9 @@ input {
   background-color: whitesmoke !important;
 }
 
-/* MEDIA QUERIES */
+/*
+ * MEDIA QUERIES
+ */
 
 /* reduce font size and center content on narrow viewports */
 @media screen and (max-width: 500px) {
