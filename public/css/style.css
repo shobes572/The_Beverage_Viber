@@ -79,6 +79,38 @@ input {
   font-weight: normal;
 }
 
+/* modal styling */
+.modal {
+  background-color: whitesmoke;
+  max-height: 100%;
+}
+
+.modal-header, .modal-text h5 {
+  text-align: center;
+  color: #202020;
+}
+
+.modal-text h5, .modal-text p {
+  line-height: 1.5;
+}
+
+.modal-text p {
+  color: #302f2fc5;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.modal-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-footer {
+  background-color: whitesmoke !important;
+}
+
+/* MEDIA QUERIES */
+
 /* reduce font size and center content on narrow viewports */
 @media screen and (max-width: 500px) {
   nav .brand-logo {
@@ -101,9 +133,28 @@ input {
     justify-content: center;
   }
 
+  /* modal media query */
+  .modal-header {
+    font-size: 7vw;
+  }
+
+  .modal-text h5 {
+    font-size: 4.5vw;
+  }
+
+  .modal-text p {
+    font-size: 4vw;
+  }
+
 }
 
+/* reduce font size further on very narrow viewports */
 @media screen and (max-width: 363px) {
   nav .brand-logo {
     font-size: 1.45rem;
-}}
+  }
+
+  .modal-text p {
+    font-size: 4vw;
+  }
+}
