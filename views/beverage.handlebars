@@ -11,7 +11,7 @@
   <main>
     <!-- parallax -->
     <div class="parallax-container">
-      <div class="parallax"><img src="images/erol-ahmed-54hUU5pNSvo-unsplash.jpeg"></div>
+      <div class="parallax"><img src="/images/erol-ahmed-54hUU5pNSvo-unsplash.jpeg"></div>
     </div>
     <div class="section white">
       <!-- UPDATED card row -->
@@ -21,11 +21,11 @@
         <div class="col s12">
           <div class="card col s12">
             <div class="card-image">
-                <img src= {{image}}>
-                <span class="card-title">{{beverage}}</span>
+                <img src= {{beverage.dataValues.image}}>
+                <span class="card-title">{{beverage.dataValues.beverage}}</span>
               </div>
               <div class="card-content">
-                <p>{{info}}</p>
+                <p>{{beverage.dataValues.info}}</p>
               </div>
           </div>
         </div>
